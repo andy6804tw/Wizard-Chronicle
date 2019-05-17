@@ -1,0 +1,34 @@
+/*控制圓形和橫線置中對齊*/
+.wizard .set {
+	display:flex;
+  align-items:center;
+}
+
+.wizard .year{
+  font-size: 30px;
+}
+
+.wizard .circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: solid 8px #ee7800;
+}
+
+.wizard .line {
+  border-top: 6px solid #ee7800;
+  width:86%;
+	vertical-align:middle;
+}
+
+.wizard .line-vertical {
+  width:50px;
+    height:200px;
+	  background: linear-gradient(to right, 
+	                              transparent 0%, 
+	                              transparent calc(50% - 3px), 
+	                              #ee7800 calc(50% - 3px), 
+	                              #ee7800 calc(50% + 3px), 
+	                              transparent calc(50% + 3px), 
+	                              transparent 100%); 
+}
